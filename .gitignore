@@ -1,0 +1,57 @@
+# Gradle
+.gradle/
+build/
+**/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+.navigation/
+captures/
+
+# Android generated files
+local.properties
+*.apk
+*.ap_
+*.aab
+*.aar
+*.dex
+*.hprof
+
+# Signing keys and private release config
+keystore.properties
+*.jks
+*.keystore
+*.p12
+*.pem
+*.key
+*.cer
+*.crt
+keystore_base64.txt
+
+# Environment and app-specific local config
+.env
+.env.*
+!.env.example
+google-services.json
+service-account*.json
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# Kotlin / Java build output
+out/
+*.class
+
+# Node/tooling caches that may appear from docs or helpers
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/

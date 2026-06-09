@@ -17,20 +17,17 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace = "id.skripzy.app"
-    compileSdk = 32
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "id.skripzy.app"
         minSdk = 23
-        targetSdk = 32
+        targetSdk = 35
         versionCode = 1
         versionName = "2.10.1"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
-
-    // Explicitly set build tools version
-    buildToolsVersion = "32.0.0"
 
     // Signing configuration
     signingConfigs {
