@@ -17,12 +17,12 @@ if (keystorePropertiesFile.exists()) {
 
 android {
     namespace = "id.skripzy.app"
-    compileSdk = 35
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "id.skripzy.app"
         minSdk = 23
-        targetSdk = 35
+        targetSdk = 36
         versionCode = 1
         versionName = "2.10.1"
 
